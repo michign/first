@@ -65,9 +65,7 @@ static PIN_State ledPinState;
  * Application LED pin configuration table:
  *   - All LEDs board LEDs are off.
  */
-PIN_Config ledPinTable[] = {
-    PIN_TERMINATE
-};
+
 
 /*
  *  ======== heartBeatFxn ========
