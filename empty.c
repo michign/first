@@ -66,7 +66,6 @@ static PIN_State ledPinState;
  *   - All LEDs board LEDs are off.
  */
 PIN_Config ledPinTable[] = {
-    Board_LED0 | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL | PIN_DRVSTR_MAX,
     PIN_TERMINATE
 };
 
